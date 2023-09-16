@@ -16,4 +16,4 @@ fib_1(5)  # print the fibonacci sequence upto 5th term
 
 print()  # next line
 
-print("Fibonacci Sequence of 5th term: ", fib_2())
+print("Fibonacci Sequence of 5th term: ", fib_2(5))
