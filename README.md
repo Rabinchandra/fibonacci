@@ -1,23 +1,5 @@
 # Fibonacci
 Fibonacci Sequence with Recursive Functions without Memoization in time complexity of O(n)
-# To print the Fibonacci sequence up to the nth term
-def fib_1(n, a=0, b=1):
-    if n > 0:
-        print(a, end=" ")  # Print the current Fibonacci number
-        fib_1(n-1, b, a+b)  # Recursively call fib_1 to calculate the next number
-
-
-# To get the nth term of the Fibonacci sequence
-def fib_2(n, a=0, b=1):
-    if n <= 1:
-        return a  # Return the current Fibonacci number when n is 0 or 1
-    return fib_2(n-1, b, a+b)  # Recursively call fib_2 to calculate the nth number
-
-fib_1(5)  # Print the Fibonacci sequence up to the 5th term
-
-print()  # Print a newline
-
-print("Fibonacci Sequence of 5th term: ", fib_2(5))  # Get the 5th term of the Fibonacci sequence
 
 # Explanation:
 
