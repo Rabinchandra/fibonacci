@@ -3,9 +3,9 @@ Fibonacci Sequence with Recursive Functions without Memoization in time complexi
 
 # Explanation:
 
-1. fib_1 is a function to print the Fibonacci sequence up to the nth term using recursion. It takes three arguments: `n` (the number of terms to print), `a` (the first Fibonacci number), and `b` (the second Fibonacci number).
+1. `fib_1` is a function to print the Fibonacci sequence up to the nth term using recursion. It takes three arguments: `n` (the number of terms to print), `a` (the first Fibonacci number), and `b` (the second Fibonacci number).
 
-2. In fib_1, it prints the current Fibonacci number (`a`) and then recursively calls itself with `n-1`, `b`, and `a+b` to calculate and print the next number. This process continues until `n` reaches 0, at which point it stops.
+2. In `fib_1`, it prints the current Fibonacci number (`a`) and then recursively calls itself with `n-1`, `b`, and `a+b` to calculate and print the next number. This process continues until `n` reaches 0, at which point it stops.
 
 3. `fib_2` is a function to get the nth term of the Fibonacci sequence using recursion. It also takes three arguments: `n`, `a`, and `b`.
 
